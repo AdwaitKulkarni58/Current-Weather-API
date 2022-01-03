@@ -1,0 +1,95 @@
+#header {
+  margin: auto;
+  width: 50%;
+}
+
+header {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 20px;
+  color: white;
+  font-family: montserrat, monospace;
+}
+
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("./images/bg.jpg");
+  background-size: cover;
+}
+
+#container {
+  text-align: center;
+  padding-top: 3em;
+  margin: auto;
+  width: 50%;
+  font-family: montserrat, monospace;
+}
+
+input {
+  font-size: 2em;
+  background: transparent;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+  border-top: none;
+}
+
+.btn-container {
+  display: inline-block;
+  border: none;
+}
+
+button {
+  -webkit-border-radius: 42;
+  -moz-border-radius: 42;
+  border-radius: 30px;
+  font-family: Arial;
+  background: #171f24;
+  padding: 8px 15px 8px 15px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+#main {
+  text-align: center;
+  padding-top: 3em;
+  margin: auto;
+  width: 50%;
+  height: 65vh;
+  color: white;
+  font-family: montserrat, monospace;
+}
+
+#name {
+  font-size: 3.5em;
+  font-family: montserrat, monospace;
+  font-weight: 700;
+}
+
+#results,
+#min_temp,
+#max_temp,
+#humidity,
+#wind_speed,
+#visibility,
+#description {
+  font-size: 2.2em;
+  font-family: montserrat, monospace;
+  font-weight: 600;
+  margin: 10px;
+}
